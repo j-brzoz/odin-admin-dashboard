@@ -1,3 +1,32 @@
-p {
-    color: brown;
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 200px 1fr 50px;
+}
+
+.header {
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: gray;
+}
+
+.sidebar {
+    grid-area: 1 / 1 / 4 / 2;
+    background-color: red;
+}
+
+.main {
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: bisque;
+}
+
+.footer {
+    grid-area: 3 / 2 / 4 / 3;
+    background-color: darkgray;
 }
