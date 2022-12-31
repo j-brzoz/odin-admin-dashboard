@@ -48,7 +48,7 @@ body {
 }
 
 .header form button {
-    background: url(images/magnify.svg);
+    background: url(images/header/magnify.svg);
     border: none;
     height: 30px;
     width: 30px;
@@ -74,7 +74,7 @@ body {
 }
 
 .notificationsBtn {
-    background: url(images/bell-ring-outline.svg);
+    background: url(images/header/bell-ring-outline.svg);
     border: none;
     height: 30px;
     width: 30px;
