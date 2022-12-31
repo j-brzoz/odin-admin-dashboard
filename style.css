@@ -19,7 +19,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 275px auto;
-    grid-template-rows: 200px 1fr 50px;
+    grid-template-rows: 200px 1fr 30px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
@@ -197,6 +197,10 @@ body {
     gap: 15px;
 }
 
+.menuItem:hover {
+    background-color: #354820;
+}
+
 .menuItem img {
     padding-left: 20px;;
     height: 35px;
@@ -267,6 +271,11 @@ body {
     width: 25px;
 }
 
+.card .buttons button:hover{
+    height: 27px;
+    width: 27px;
+}
+
 .card .buttons .btn1 {
     background: url(images/main/star-plus-outline.svg);
 }
@@ -309,6 +318,11 @@ body {
     color: rgb(85, 85, 85);
 }
 
+.section1:hover, .section2:hover, .section3:hover {
+    background-color: rgb(221, 221, 221);
+    border-radius: 8px;
+}
+
 .section1 {
     border-top: none;
     padding-top: 0;
@@ -338,6 +352,11 @@ body {
     align-items: center;
 }
 
+.person:hover {
+    border-radius: 7px;
+    background-color: rgb(221, 221, 221);
+}
+
 .person img {
     height: 60px;
     width: auto;
@@ -355,5 +374,8 @@ body {
 
 .footer {
     grid-area: 3 / 2 / 4 / 3;
-    background-color: darkgray;
+    background-color: white;
+    box-shadow: 0 -10px 15px -3px rgb(0 0 0 / 0.1), 0 -4px 6px -4px rgb(0 0 0 / 0.1);
+    text-align: center;
+    padding-top: 5px;
 }
